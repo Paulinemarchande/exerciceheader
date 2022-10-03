@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: beige;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    margin:0px;
+    justify-content: space-between;
+}
+
+.logo{
+    color: pink;
+    font-size: 2em;
+    margin: 10px;
+    border: plum solid;
+}
+
+
+.lien{
+    color: pink;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1,5em;
+}
+
+.header{
+    height: 80vh;
+    background-image: url("fond.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    color: white;
+    text-transform: uppercase;
+    font-size: 110%;
+}
